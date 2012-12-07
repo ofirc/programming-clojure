@@ -21,7 +21,7 @@
   (println (str "Hello, " username)))
 ; END:hello-docstring
 (def hello-docstring hello)
-
+ 
 (def visitors (ref #{}))
 ; START:hello
 (defn hello 
